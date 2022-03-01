@@ -17,8 +17,7 @@
         <img class="product-photo" src="third.png" alt=".33oz size"/>
         <div class="product-info">
           <h6 class="u-text u-text-default u-text-1">Natural Herbs .33oz (10mL)</h6>
-          <p class="u-text u-text-default u-text-grey-40 u-text-2">100% pure ocimum basilicum, and <br> cinnamomum zeylanicum</p>
-          <h4 class="u-text u-text-default u-text-3">$30 (+$5.99 shipping)</h4>
+          <h4 class="u-text u-text-default u-text-3">$25 (free shipping)</h4>
         </div>
       </div>
 
@@ -26,8 +25,7 @@
         <img class="product-photo" src="full.png" alt="full size" />
         <div class="product-info">
           <h6 class="u-text u-text-default u-text-1">Natural Herbs 1oz (30mL)</h6>
-          <p class="u-text u-text-default u-text-grey-40 u-text-2">100% pure ocimum basilicum, and <br> cinnamomum zeylanicum</p>
-          <h4 class="u-text u-text-default u-text-3">$60 (+$5.99 shipping)</h4>
+          <h4 class="u-text u-text-default u-text-3">$49 (free shipping)</h4>
         </div>
       </div>
     </div>
@@ -38,7 +36,7 @@
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
           <p>Natural Herbs - ocimum basilicum</p>
-          <select id="item-options"><option value="10mL" price="30">.33oz (10mL) - $30 USD</option><option value="30mL" price="60">1oz (30mL) - $60 USD</option></select>
+          <select id="item-options"><option value="10mL" price="30">.33oz (10mL) - $25 USD</option><option value="30mL" price="49">1oz (30mL) - $49 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
         </div>
       <div id="paypal-button-container"></div>
@@ -47,7 +45,7 @@
     <script src="https://www.paypal.com/sdk/js?client-id=AfMQmt8S_GocXj7-A3Qy1Fq06eWggiFsrLUr_eMOS8RRopszBbRlHU82gVhFDb5TMaQLU3jHzUVI-JGm&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
-        var shipping = 5.99;
+        var shipping = 0;
         var itemOptions = document.querySelector("#smart-button-container #item-options");
     var quantity = parseInt(10);
     var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
